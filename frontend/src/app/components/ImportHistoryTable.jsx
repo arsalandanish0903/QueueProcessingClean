@@ -29,7 +29,7 @@ export default function ImportHistoryTable() {
   return (
     <div className="p-6 bg-gray-50 min-h-screen w-full font-poppins">
       <div className="container mx-auto max-w-[1140px]">
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4 text-black">
           Import History
         </h2>
 
