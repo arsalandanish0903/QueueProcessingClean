@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:5000/api/importLogRoutes";
+const API_URL = "https://queueprocessingclean-1.onrender.com/api/importLogRoutes";
 
 export default function ImportHistoryTable() {
   const [logs, setLogs] = useState([]);
