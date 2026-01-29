@@ -14,6 +14,9 @@ app.use(express.json());
 
 app.use("/api/importLogRoutes", importLogRoutes);
 
+app.get("/", (req, res) => {
+  return res.json(`Backend is running on port ${process.env.PORT || 5000}`)
+})
 
 connectDB();
 
