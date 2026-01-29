@@ -118,18 +118,18 @@ export default function ImportHistoryTable() {
               <button
                 onClick={() => setPage((p) => Math.max(p - 1, 1))}
                 disabled={page === 1}
-                className="px-3 py-1.5 text-sm border rounded disabled:opacity-40"
+                className="px-3 py-1.5 text-sm border rounded disabled:opacity-40 text-gray-700"
               >
                 Prev
               </button>
 
-              <span className="text-base text-gray-600">
+              <span className="text-base text-black">
                 Page {page}
               </span>
 
               <button
                 onClick={() => setPage((p) => p + 1)}
-                className="px-3 py-1.5 text-sm border rounded"
+                className="px-3 py-1.5 text-sm border rounded text-gray-700"
               >
                 Next
               </button>
